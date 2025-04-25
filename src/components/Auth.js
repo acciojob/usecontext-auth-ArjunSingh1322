@@ -11,12 +11,13 @@ const Auth=()=>{
 
     return(
 <div>
-   
+<div className="authText">
     <p style={{ marginTop: '20px' }}>
         {click
           ? 'You are now authenticated,you can process'
           : ' you are not authenticated'}
       </p>
+      </div>
       <input type="checkbox" onClick={Authfun}/> I'm not a robot
 </div>
 
