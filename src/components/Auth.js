@@ -14,7 +14,7 @@ const Auth=()=>{
 <div className="authText">
     <p style={{ marginTop: '20px' }}>
         {click
-          ? 'You are now authenticated,you can process'
+          ? 'You are now authenticated, you can proceed'
           : ' you are not authenticated'}
       </p>
       </div>
